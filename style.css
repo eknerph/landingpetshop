@@ -57,6 +57,12 @@ nav ul li a {
   margin: 1rem 0 0.5rem;
 }
 
+.card p {
+  margin: 0.5rem 0;
+  color: #007bff;
+  font-weight: 800;
+}
+
 .card button{
   background-color: #007bff;
   color: #fff;
