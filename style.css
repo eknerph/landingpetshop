@@ -90,13 +90,14 @@ nav ul li a {
 
 .location-content {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
 
 .location-image img {
-  max-width: 300px;
+  max-width: 370px;
   height: auto;
 }
 
