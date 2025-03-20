@@ -15,6 +15,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #f0f0f0;
+  gap: 30px;
 }
 
 header .logo img {
