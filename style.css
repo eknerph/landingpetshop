@@ -46,6 +46,11 @@ nav ul li a {
   
 }
 
+.content-section p {
+  display: flex;
+  
+}
+
 .carousel {
   display: flex;
   justify-content: center;
