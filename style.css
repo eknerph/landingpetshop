@@ -46,11 +46,10 @@ nav ul li a {
   
 }
 
-.content-section p {
+ #sobre p {
  text-align: justify;
- padding: 10px 32rem;
- text-indent: 7%;
-  
+ padding: 10px 510px;
+ text-indent: 7%;  
 }
 
 .carousel {
