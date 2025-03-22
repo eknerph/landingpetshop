@@ -47,7 +47,8 @@ nav ul li a {
 }
 
 .content-section p {
-  display: flex;
+ text-align: justify;
+ padding: 10px 32rem;
   
 }
 
