@@ -43,13 +43,13 @@ nav ul li a {
 .content-section {
   padding: 50px;
   text-align: center;
-  
+
 }
 
- #sobre p {
- text-align: justify;
- padding: 10px 510px;
- text-indent: 7%;  
+#sobre p {
+  text-align: justify;
+  padding: 10px 510px;
+  text-indent: 7%;
 }
 
 .carousel {
@@ -80,7 +80,7 @@ nav ul li a {
   font-weight: 800;
 }
 
-.card button{
+.card button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -172,34 +172,48 @@ footer {
 /* Estilos para dispositivos móveis (largura máxima de 768px) */
 @media (max-width: 768px) {
   header {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   header .logo {
-      padding-left: 0;
-      margin-bottom: 10px;
+    padding-left: 0;
+    margin-bottom: 10px;
   }
 
   nav ul {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   nav ul li {
     margin: 10px 0;
-}
+  }
 
-#sobre p {
+  #sobre p {
     padding: 10px;
-}
+  }
 
-.carousel {
+  .carousel {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.card {
+  .card {
     width: 90%;
+  }
+
+  .location-content {
+    flex-direction: column;
+  }
+
+  .location-image img {
+    max-width: 100%;
+  }
+
+  .modal-content {
+    width: 90%;
+    margin: 10% auto;
+  }
 }
