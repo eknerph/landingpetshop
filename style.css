@@ -186,3 +186,20 @@ footer {
       flex-direction: column;
       align-items: center;
   }
+
+  nav ul li {
+    margin: 10px 0;
+}
+
+#sobre p {
+    padding: 10px;
+}
+
+.carousel {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+}
